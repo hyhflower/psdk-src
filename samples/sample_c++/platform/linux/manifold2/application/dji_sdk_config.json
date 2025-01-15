@@ -1,0 +1,36 @@
+{
+  "dji_sdk_app_info": {
+    "user_app_name": "PayloadRtos",
+    "user_app_id": "120167",
+    "user_app_key": "30ae9524fc8c523267373dae3361caa",
+    "user_app_license": "TN/LqUyPvOh2rHgzOTCKsVyUFTMSQN7gKSLNcwhekiuD1OymkwSL5mk2827GDJ+w4qAUGYVSHUdPsbDJh0P9ZGK32/Dx+a4PzG/va13keeKTjAcRF6yG6hnQYlOAocxdpWdfWqMeKQMyNiPnP3uMXHElQtu/oYCghWXjmL1uy+9HdEoaX2OHF/Wil2WPs0o0+tOGS7cR2I27j+bjTwrlRIJZ52rh9YEq9BvuxRYUhidcha/WmDIPWtOLyQAJEWvibIoHEzQBo7+cJ8A7T/d3WVk/i7+k8kihV0NUfhTyXl4PZqTTbyTs0Fe1pPY5Mwdx276fL0c0JNhJ4MWGy8meoQ==",
+    "user_develop_account": "1307725524@qq.com",
+    "user_baud_rate": "460800"
+  },
+  "dji_sdk_link_config": {
+    "link_available": "use_only_uart/use_uart_and_usb_bulk_device/use_uart_and_network_device",
+    "link_select": "use_uart_and_network_device",
+    "uart_config": {
+      "uart1_device_name": "/dev/ttyUSB0",
+      "uart2_device_enable": "true",
+      "uart2_device_name": "/dev/ttyACM0"
+    },
+    "network_config": {
+      "network_device_name": "enp3s0",
+      "network_usb_adapter_vid": "0x0B95",
+      "network_usb_adapter_pid": "0x1790"
+    },
+    "usb_bulk_config": {
+      "usb_device_vid": "0x0B95",
+      "usb_device_pid": "0x1790",
+      "usb_bulk1_device_name": "/dev/usb-ffs/bulk1",
+      "usb_bulk1_interface_num": "2",
+      "usb_bulk1_endpoint_in": "0x83",
+      "usb_bulk1_endpoint_out": "0x02",
+      "usb_bulk2_device_name": "/dev/usb-ffs/bulk2",
+      "usb_bulk2_interface_num": "3",
+      "usb_bulk2_endpoint_in": "0x84",
+      "usb_bulk2_endpoint_out": "0x03"
+    }
+  }
+}

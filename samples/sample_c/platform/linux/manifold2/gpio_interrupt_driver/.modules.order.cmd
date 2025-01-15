@@ -1,0 +1,1 @@
+cmd_/home/hhit/Payload-SDK/samples/sample_c/platform/linux/manifold2/gpio_interrupt_driver/modules.order := {   echo /home/hhit/Payload-SDK/samples/sample_c/platform/linux/manifold2/gpio_interrupt_driver/fintek_gpio_int.ko; :; } | awk '!x[$$0]++' - > /home/hhit/Payload-SDK/samples/sample_c/platform/linux/manifold2/gpio_interrupt_driver/modules.order
